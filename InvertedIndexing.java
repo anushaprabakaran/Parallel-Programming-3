@@ -4,8 +4,6 @@
 // the count of the keyword in each document.
 // The list of documents are sorted in descending order 
 // with respect to count.
-// Name : Anusha Prabakaran
-// Stdent ID : 1470730
 
 
 import java.io.IOException;
@@ -180,7 +178,7 @@ Int max = ...;
     // Recieves keywords or terms in args
     // Goal is to create a list of documents for each keyword. 
     public static void main(String[] args) throws Exception {
-	    // input format:
+	// input format:
         // hadoop jar invertedindexes.jar InvertedIndexes input output keyword1 keyword2 ..
 
         // Pass the  keyword to the map function
